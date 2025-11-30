@@ -23,6 +23,9 @@ import StudentAssessments from './components/student/Assessments';
 import StudentProgress from './components/student/Progress';
 import StudentFeedback from './components/student/Feedback';
 
+// Common Components
+import NotFound from './components/common/NotFound';
+
 function App() {
   return (
     <Router>
@@ -49,6 +52,9 @@ function App() {
         
         {/* Default Routes */}
         <Route path="/" element={<Navigate to="/login" />} />
+        
+        {/* 404 Catch-all Route */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );

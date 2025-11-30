@@ -1,0 +1,40 @@
+.not-found-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.not-found-content {
+  text-align: center;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.not-found-content h1 {
+  font-size: 120px;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.not-found-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.not-found-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.not-found-content .btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
